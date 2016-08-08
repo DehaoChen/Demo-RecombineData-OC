@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8386D72A1D58C87A00C7B98F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8386D7291D58C87A00C7B98F /* main.m */; };
+		8386D72D1D58C87A00C7B98F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8386D72C1D58C87A00C7B98F /* AppDelegate.m */; };
+		8386D7301D58C87A00C7B98F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8386D72F1D58C87A00C7B98F /* ViewController.m */; };
+		8386D7331D58C87A00C7B98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8386D7311D58C87A00C7B98F /* Main.storyboard */; };
+		8386D7351D58C87A00C7B98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8386D7341D58C87A00C7B98F /* Assets.xcassets */; };
+		8386D7381D58C87A00C7B98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8386D7361D58C87A00C7B98F /* LaunchScreen.storyboard */; };
+		8386D7641D58C94500C7B98F /* CDH_CarBrandItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8386D75F1D58C94500C7B98F /* CDH_CarBrandItem.m */; };
+		8386D7651D58C94500C7B98F /* CDH_CarGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8386D7611D58C94500C7B98F /* CDH_CarGroupItem.m */; };
+		8386D7661D58C94500C7B98F /* CDH_CarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8386D7631D58C94500C7B98F /* CDH_CarItem.m */; };
+		8386D7681D58CA0000C7B98F /* brand.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8386D7671D58CA0000C7B98F /* brand.plist */; };
+		A19B088F9BD0E74317FF4A31 /* Pods_RecombineData_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149CF6F3795DF981E5080946 /* Pods_RecombineData_OC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		149CF6F3795DF981E5080946 /* Pods_RecombineData_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecombineData_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61822CB71934392D8CE86047 /* Pods-RecombineData-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecombineData-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecombineData-OC/Pods-RecombineData-OC.release.xcconfig"; sourceTree = "<group>"; };
+		659810F83A68606B8E45F0D6 /* Pods-RecombineData-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecombineData-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecombineData-OC/Pods-RecombineData-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		8386D7251D58C87A00C7B98F /* RecombineData-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RecombineData-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8386D7291D58C87A00C7B98F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8386D72B1D58C87A00C7B98F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8386D72C1D58C87A00C7B98F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8386D72E1D58C87A00C7B98F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8386D72F1D58C87A00C7B98F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8386D7321D58C87A00C7B98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8386D7341D58C87A00C7B98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8386D7371D58C87A00C7B98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8386D7391D58C87A00C7B98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8386D75E1D58C94500C7B98F /* CDH_CarBrandItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDH_CarBrandItem.h; sourceTree = "<group>"; };
+		8386D75F1D58C94500C7B98F /* CDH_CarBrandItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDH_CarBrandItem.m; sourceTree = "<group>"; };
+		8386D7601D58C94500C7B98F /* CDH_CarGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDH_CarGroupItem.h; sourceTree = "<group>"; };
+		8386D7611D58C94500C7B98F /* CDH_CarGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDH_CarGroupItem.m; sourceTree = "<group>"; };
+		8386D7621D58C94500C7B98F /* CDH_CarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDH_CarItem.h; sourceTree = "<group>"; };
+		8386D7631D58C94500C7B98F /* CDH_CarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDH_CarItem.m; sourceTree = "<group>"; };
+		8386D7671D58CA0000C7B98F /* brand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = brand.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8386D7221D58C87A00C7B98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19B088F9BD0E74317FF4A31 /* Pods_RecombineData_OC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15BDDAC73976AB099B701602 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				659810F83A68606B8E45F0D6 /* Pods-RecombineData-OC.debug.xcconfig */,
+				61822CB71934392D8CE86047 /* Pods-RecombineData-OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8386D71C1D58C87A00C7B98F = {
+			isa = PBXGroup;
+			children = (
+				8386D7271D58C87A00C7B98F /* RecombineData-OC */,
+				8386D7261D58C87A00C7B98F /* Products */,
+				15BDDAC73976AB099B701602 /* Pods */,
+				F989ECAAF29C1FEB3FEC7A46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8386D7261D58C87A00C7B98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8386D7251D58C87A00C7B98F /* RecombineData-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8386D7271D58C87A00C7B98F /* RecombineData-OC */ = {
+			isa = PBXGroup;
+			children = (
+				8386D75D1D58C94500C7B98F /* Model */,
+				8386D72B1D58C87A00C7B98F /* AppDelegate.h */,
+				8386D72C1D58C87A00C7B98F /* AppDelegate.m */,
+				8386D72E1D58C87A00C7B98F /* ViewController.h */,
+				8386D72F1D58C87A00C7B98F /* ViewController.m */,
+				8386D7671D58CA0000C7B98F /* brand.plist */,
+				8386D7311D58C87A00C7B98F /* Main.storyboard */,
+				8386D7341D58C87A00C7B98F /* Assets.xcassets */,
+				8386D7361D58C87A00C7B98F /* LaunchScreen.storyboard */,
+				8386D7391D58C87A00C7B98F /* Info.plist */,
+				8386D7281D58C87A00C7B98F /* Supporting Files */,
+			);
+			path = "RecombineData-OC";
+			sourceTree = "<group>";
+		};
+		8386D7281D58C87A00C7B98F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8386D7291D58C87A00C7B98F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8386D75D1D58C94500C7B98F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8386D75E1D58C94500C7B98F /* CDH_CarBrandItem.h */,
+				8386D75F1D58C94500C7B98F /* CDH_CarBrandItem.m */,
+				8386D7601D58C94500C7B98F /* CDH_CarGroupItem.h */,
+				8386D7611D58C94500C7B98F /* CDH_CarGroupItem.m */,
+				8386D7621D58C94500C7B98F /* CDH_CarItem.h */,
+				8386D7631D58C94500C7B98F /* CDH_CarItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F989ECAAF29C1FEB3FEC7A46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149CF6F3795DF981E5080946 /* Pods_RecombineData_OC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8386D7241D58C87A00C7B98F /* RecombineData-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8386D73C1D58C87A00C7B98F /* Build configuration list for PBXNativeTarget "RecombineData-OC" */;
+			buildPhases = (
+				4DE83F4512CB04334B1912B0 /* [CP] Check Pods Manifest.lock */,
+				8386D7211D58C87A00C7B98F /* Sources */,
+				8386D7221D58C87A00C7B98F /* Frameworks */,
+				8386D7231D58C87A00C7B98F /* Resources */,
+				24AA441390F13E2FE9BCF98B /* [CP] Embed Pods Frameworks */,
+				BFA7486FE753A89B94D04DFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecombineData-OC";
+			productName = "RecombineData-OC";
+			productReference = 8386D7251D58C87A00C7B98F /* RecombineData-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8386D71D1D58C87A00C7B98F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CDHao;
+				TargetAttributes = {
+					8386D7241D58C87A00C7B98F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8386D7201D58C87A00C7B98F /* Build configuration list for PBXProject "RecombineData-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8386D71C1D58C87A00C7B98F;
+			productRefGroup = 8386D7261D58C87A00C7B98F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8386D7241D58C87A00C7B98F /* RecombineData-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8386D7231D58C87A00C7B98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8386D7681D58CA0000C7B98F /* brand.plist in Resources */,
+				8386D7381D58C87A00C7B98F /* LaunchScreen.storyboard in Resources */,
+				8386D7351D58C87A00C7B98F /* Assets.xcassets in Resources */,
+				8386D7331D58C87A00C7B98F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24AA441390F13E2FE9BCF98B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecombineData-OC/Pods-RecombineData-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE83F4512CB04334B1912B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA7486FE753A89B94D04DFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecombineData-OC/Pods-RecombineData-OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8386D7211D58C87A00C7B98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8386D7301D58C87A00C7B98F /* ViewController.m in Sources */,
+				8386D72D1D58C87A00C7B98F /* AppDelegate.m in Sources */,
+				8386D72A1D58C87A00C7B98F /* main.m in Sources */,
+				8386D7651D58C94500C7B98F /* CDH_CarGroupItem.m in Sources */,
+				8386D7641D58C94500C7B98F /* CDH_CarBrandItem.m in Sources */,
+				8386D7661D58C94500C7B98F /* CDH_CarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8386D7311D58C87A00C7B98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8386D7321D58C87A00C7B98F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8386D7361D58C87A00C7B98F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8386D7371D58C87A00C7B98F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8386D73A1D58C87A00C7B98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8386D73B1D58C87A00C7B98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8386D73D1D58C87A00C7B98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659810F83A68606B8E45F0D6 /* Pods-RecombineData-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RecombineData-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chendehao.RecombineData-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8386D73E1D58C87A00C7B98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61822CB71934392D8CE86047 /* Pods-RecombineData-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RecombineData-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chendehao.RecombineData-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8386D7201D58C87A00C7B98F /* Build configuration list for PBXProject "RecombineData-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8386D73A1D58C87A00C7B98F /* Debug */,
+				8386D73B1D58C87A00C7B98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8386D73C1D58C87A00C7B98F /* Build configuration list for PBXNativeTarget "RecombineData-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8386D73D1D58C87A00C7B98F /* Debug */,
+				8386D73E1D58C87A00C7B98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8386D71D1D58C87A00C7B98F /* Project object */;
+}
